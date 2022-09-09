@@ -1,0 +1,25 @@
+{
+  "name": "@uilicious/types",
+  "description": "TypeScript definitions for Uilicious test files",
+  "homepage": "https://github.com/uilicious/uilicious-typescript-hinting",
+  "license": "MIT",
+  "version": "1.0.0",
+  "main": "",
+  "types": "index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts"
+    }
+  },
+  "scripts": {
+    "lint": "eslint types"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.30.7",
+    "@typescript-eslint/parser": "^5.30.7",
+    "eslint": "^7.32.0",
+    "eslint-plugin-jsdoc": "^39.3.3",
+    "eslint-plugin-no-autofix": "^1.2.3",
+    "typescript": "^4.7.4"
+  }
+}
