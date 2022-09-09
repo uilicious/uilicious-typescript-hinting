@@ -21,5 +21,14 @@
     "eslint-plugin-jsdoc": "^39.3.3",
     "eslint-plugin-no-autofix": "^1.2.3",
     "typescript": "^4.7.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:uilicious/uilicious-typescript-hinting.git"
+  },
+  "keywords": [
+    "uilicious",
+    "types"
+  ],
+  "author": "UIlicious"
 }
