@@ -1,5 +1,14 @@
 # Installation
-> `npm install --save @uilicious/types`
+1. `npm install --save-dev @uilicious/types`
+
+2. Add the following to your `tsconfig.json`:
+    ```json
+    {
+      "compilerOptions": {
+        "types": ["@uilicious/types"]
+      }
+    }
+    ```
 
 # Summary
 This package contains type definitions for [Uilicious](https://uilicious.com) test files.
